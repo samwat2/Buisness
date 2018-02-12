@@ -1,0 +1,37 @@
+html {
+/*	background: #003973;  
+	background: -webkit-linear-gradient(to left, #E5E5BE, #003973); 
+	background: linear-gradient(to left, #E5E5BE, #003973); */
+	background: #1F1C2C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+#hpf {
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 1px;
+	position: absolute;
+}
+
+.jumbotron {
+	font-family: "Times New Roman", Georgia, Serif;
+	opacity: 0.4;
+}
+
+#about-list {
+	opacity: 0.3;
+	overflow-y: scroll;
+}
+
+.list-unstyled {
+	opacity: 0.3;
+}
+
+.about-list {
+	opacity: 0.3;
+}
