@@ -2,12 +2,12 @@ html, body {
 /*	background: #003973;  
 	background: -webkit-linear-gradient(to left, #E5E5BE, #003973); 
 	background: linear-gradient(to left, #E5E5BE, #003973); */
-/*	background: #1F1C2C;  
+	background: #1F1C2C;  
   background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C); 
-  background: linear-gradient(to left, #928DAB, #1F1C2C); */
-	background: #E6DADA;
+  background: linear-gradient(to left, #928DAB, #1F1C2C); 
+	/*background: #E6DADA;
   background: -webkit-linear-gradient(to bottom, #274046, #E6DADA);
-  background: linear-gradient(to bottom, #274046, #E6DADA);
+  background: linear-gradient(to bottom, #274046, #E6DADA);*/
 
 	font-family: "Times New Roman", Georgia, Serif;
 	color: #FFF5EE;
@@ -50,3 +50,7 @@ h5 {
 	text-decoration: underline;
 }
 
+.imgE {
+	transition: all 1s ease;
+	cursor: pointer;
+}

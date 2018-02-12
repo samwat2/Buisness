@@ -21,6 +21,13 @@ post '/contact-us' do
 	@body = params[:body]
 	@email_address = params[:email_adress]
 	@subject = params[:subject]
-	Pony.mail(:to => 'swsw872@gmail.com', :from => @email_adress, :subject => @subject, :body => @body)
+	Pony.mail to: 'swsw872@gmail.com'
+	Pony.mail subject: "#{@first_name} #{last_name}"
+	Pony.mail body: %(
+		#{@first_name} #{@last_name}
+
+		And the message is:
+		#{@body}
+	)
 	erb :contacted
 end
