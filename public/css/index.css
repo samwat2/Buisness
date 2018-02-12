@@ -1,37 +1,52 @@
-html {
+html, body {
 /*	background: #003973;  
 	background: -webkit-linear-gradient(to left, #E5E5BE, #003973); 
 	background: linear-gradient(to left, #E5E5BE, #003973); */
-	background: #1F1C2C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	background: #1F1C2C;  
+  background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C); 
+  background: linear-gradient(to left, #928DAB, #1F1C2C); */
+	background: #E6DADA;
+  background: -webkit-linear-gradient(to bottom, #274046, #E6DADA);
+  background: linear-gradient(to bottom, #274046, #E6DADA);
+
 	font-family: "Times New Roman", Georgia, Serif;
+	color: #FFF5EE;
+}
+/*home page*/
+.card {
+	background-color: inherit;
+}
+.card-text {
+	opacity: 0.4;
+	color: #FFF5EE;
+	font-weight: 750;
+}
+/*home page*/
+#big_image {
+	height: 29%;
+	width: 35%;
 }
 
-#hpf {
-	top: 50%;
-	left: 50%;
-	height: 200px;
-	width: 200px;
-	display: inline-block;
-	margin: 1px;
-	position: absolute;
-}
-
+/*home page*/
 .jumbotron {
 	font-family: "Times New Roman", Georgia, Serif;
-	opacity: 0.4;
+	background-color: inherit;
+	color: #FFF5EE;
 }
-
+/*about page*/
 #about-list {
 	opacity: 0.3;
 	overflow-y: scroll;
+	background-color: inherit;
 }
-
+/*features page*/
 .list-unstyled {
-	opacity: 0.3;
+	background-color: inherit;
+}
+/*freatures page*/
+h5 {
+	font-weight: 750;
+	letter-spacing: 3px;
+	text-decoration: underline;
 }
 
-.about-list {
-	opacity: 0.3;
-}
