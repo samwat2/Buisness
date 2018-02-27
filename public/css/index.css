@@ -54,3 +54,8 @@ h5 {
 	transition: all 1s ease;
 	cursor: pointer;
 }
+
+h3 {
+	font-weight: 750;
+	color: whtie;
+}
